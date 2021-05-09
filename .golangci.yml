@@ -1,0 +1,28 @@
+run:
+  tests: false
+
+linters:
+  enable:
+    - goimports
+    - golint
+    - govet
+    - asciicheck
+    - bodyclose
+    - errorlint
+    - gci
+    - goconst
+    - gocritic
+    - gocyclo
+    - godot
+    - godox
+    - goimports
+    - gosec
+    - sqlclosecheck
+
+linters-settings:
+  govet:
+    check-shadowing: true
+
+issues:
+  exclude:
+    - Error return value of `locker.Unlock` is not checked

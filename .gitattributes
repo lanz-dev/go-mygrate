@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# https://gist.github.com/tekin/12500956bd56784728e490d8cef9cb81
+*.go    diff=golang
+*.md    diff=markdown
